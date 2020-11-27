@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+  }
+  body {
+    font-family: 'Sanchez', serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  /* Media queries */
+
+   /* 1200px / 16px = 75em */
+   @media (min-width: 75em) {
+    html {
+      font-size: 100%;
+    }
+ 
+  }
+   /* 1440px / 16px = 90em */
+   @media (max-width: 90em) {
+    html {
+      font-size: 75%;
+    }
+
+  }
+  
+  /* 1024px / 16px = 64em */
+  @media (max-width: 64em) {
+    html {
+      font-size: 60%;
+    }
+
+  }
+  
+  /* 768px / 16px = 48em */
+  @media (max-width: 48em) {
+    html {
+      font-size: 60%;
+    }
+
+  }
+  /* 425px / 16px = 27em */
+  @media (max-width: 27em) {
+    html {
+      font-size: 45%;
+    }
+    .shop-section .row{
+      padding-top: 90%;
+    }
+  }
+     
+/* Nav section */
+
+nav {
+  font-size: 3.5rem;
+}
+nav li:hover{
+  text-decoration: underline;
+}
+.navbar-brand{
+  font-size: 5rem;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-bottom: 0;
+  }
+
+.main-header{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color:white;
+    font-size: 12rem;
+    position: relative;
+    height: 100vh;
+    width:50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* About section */
+
+  .about-section {
+    position: relative;
+    text-align: center;
+    opacity: 0.8;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+    background-image: url(./src/about_alt.jpg);
+  }
+
+
+  .about-header{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #666;
+    font-size: 8rem;
+    width:80%;
+  }
+  
+  .about-section span{
+    font-size: 4rem;
+  }
+
+  /* Coffee section */
+
+  .coffee-section{
+    padding-top: 4rem;
+    background-color: white;
+    position: relative;
+    height:100%;
+    padding-bottom: 2rem;
+  }
+
+  .coffee-header{
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin:5rem;
+  }
+
+  .coffee-section li{
+    font-size: 4rem;
+    margin-left: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+  }
+
+  .coffee-section p{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 4rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  hr {
+    width: 50%;
+    margin-left: 3rem;
+    color:black;
+    border-width: .5rem;
+    border-color: black;
+  }
+
+/* Shop section */
+
+.shop-section {
+  position: relative;
+  background-size: cover;
+  background-image: url(./src/shop_alt.jpg);
+  padding-bottom: 100px;
+}
+
+.shop-header{
+  margin: 0;
+  position: absolute;
+  left:50%;
+  top: 10%;
+  color:white;
+  font-size: 8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+}
+
+.row{
+  padding-top: 25%;
+  justify-content: center;
+}
+.card{
+  box-shadow: 5px 10px 8px black;
+  margin: 3%;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card h5{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.card p{
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.card a{
+  font-size: 2.5rem;
+}
+.card a:hover{
+  background-color:deepskyblue;
+  color:black;
+}
+
+
+/* Footer section */
+
+.footer-section{
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+ .connect-header{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.footer-section a{
+  padding-top: 2%;
+  font-size: 6rem;
+  color: white;
+  font-weight: 500;
+}
+
+.footer-section a:hover{
+  text-decoration: underline;
+}
+#links{
+  margin-top: 10rem;
+}
+
